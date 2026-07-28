@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:sugar",
+    "b": "minecraft:bread",
+    "c": "krontixzs_farming:butter",
+    "d": "krontixzs_farming:baked_apple"
+  },
+  "result": {
+    "id": "krontixzs_farming:apple_pie",
+    "count": 1
+  }
+}

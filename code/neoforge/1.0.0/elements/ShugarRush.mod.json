@@ -1,0 +1,26 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Shugar Rush",
+    "icon": "shugar_rush",
+    "color": {
+      "value": -5959150,
+      "falpha": 0.0
+    },
+    "particle": "CRIMSON_SPORE",
+    "onAddedSound": "entity.splash_potion.break",
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "CUSTOM:BloodShugar",
+        "amount": 15.0,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:Butter",
+      "CUSTOM:BakedApple",
+      "CUSTOM:ApplePie",
+      "Items.BREAD"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.SUGAR",
+      "Items.BREAD",
+      "Items.SUGAR",
+      "CUSTOM:Butter",
+      "CUSTOM:BakedApple",
+      "CUSTOM:Butter",
+      "Items.SUGAR",
+      "Items.BREAD",
+      "Items.SUGAR"
+    ],
+    "recipeReturnStack": "CUSTOM:ApplePie",
+    "name": "apple_pie_recipe",
+    "namespace": "mod"
+  }
+}

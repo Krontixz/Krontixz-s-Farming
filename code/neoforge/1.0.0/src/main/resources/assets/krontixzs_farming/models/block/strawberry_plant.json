@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "krontixzs_farming:block/strawberry_plant",
+    "particle": "krontixzs_farming:block/strawberry_plant"
+  }
+}

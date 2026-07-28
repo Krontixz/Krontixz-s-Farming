@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="CC-BY-4.0"
+
+[[mods]]
+modId="krontixzs_farming"
+version="1.0.0"
+displayName="Krontixz's Farming"
+displayURL="https://modrinth.com/mod/krontixz_farming"
+credits="idk what to put here"
+authors="Krontixz"
+description="A mod made by Krontixz that turns my imagination into farming!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.krontixzs_farming]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.71,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.krontixzs_farming]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.1.2]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
