@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "io.github.krontixz.krontixzsfarming.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "refmap": "krontixzs_farming.refmap.json",
+  "mixins": [
+    "LivingEntityMixin",
+    "PlayerMixin",
+    "ItemStackMixin",
+    "BlockItemMixin",
+    "BoneMealItemMixin",
+    "CommandsMixin",
+    "ExperienceOrbMixin",
+    "RepairItemRecipeMixin",
+    "ServerPlayerMixin",
+    "AttributeSupplierAccessor"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}

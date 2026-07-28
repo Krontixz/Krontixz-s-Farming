@@ -1,0 +1,212 @@
+{
+  "mod_elements": [
+    {
+      "name": "ApplePie",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_pie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/krontixzs_farming/models/item/apple_pie.json",
+          "src/main/java/io/github/krontixz/krontixzsfarming/item/ApplePieItem.java",
+          "src/main/resources/assets/krontixzs_farming/items/apple_pie.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodShugar",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_shugar",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ShugarRush",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shugar_rush",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/krontixz/krontixzsfarming/potion/ShugarRushMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodShugarLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_shugar_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/krontixz/krontixzsfarming/procedures/BloodShugarLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ApplePieEatingLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_pie_eating_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/krontixz/krontixzsfarming/procedures/ApplePieEatingLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BakedApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/krontixzs_farming/items/baked_apple.json",
+          "src/main/java/io/github/krontixz/krontixzsfarming/item/BakedAppleItem.java",
+          "src/main/resources/assets/krontixzs_farming/models/item/baked_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "BakedAppleSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baked_apple_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krontixzs_farming/recipe/baked_apple_smelting.json",
+          "src/main/resources/data/krontixzs_farming/advancement/recipes/baked_apple_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Butter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/krontixz/krontixzsfarming/item/ButterItem.java",
+          "src/main/resources/assets/krontixzs_farming/models/item/butter.json",
+          "src/main/resources/assets/krontixzs_farming/items/butter.json"
+        ]
+      }
+    },
+    {
+      "name": "CheeseBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krontixzs_farming/loot_table/blocks/cheese_block.json",
+          "src/main/resources/assets/krontixzs_farming/items/cheese_block.json",
+          "src/main/resources/assets/krontixzs_farming/models/block/cheese_block.json",
+          "src/main/resources/assets/krontixzs_farming/models/item/cheese_block.json",
+          "src/main/java/io/github/krontixz/krontixzsfarming/block/CheeseBlockBlock.java",
+          "src/main/resources/assets/krontixzs_farming/blockstates/cheese_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ApplePieRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_pie_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.krontixzs_farming.apple_pie": "Apple Pie",
+      "attribute.krontixzs_farming.blood_shugar": "Blood Shugar",
+      "effect.krontixzs_farming.shugar_rush": "Shugar Rush",
+      "item.krontixzs_farming.baked_apple": "Baked Apple",
+      "item.krontixzs_farming.butter": "Butter",
+      "item.krontixzs_farming.cheese_block": "Cheese Block"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/io/github/krontixz/krontixzsfarming/init/KrontixzsFarmingModAttributes.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/mixin/AttributeSupplierAccessor.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/init/KrontixzsFarmingModMobEffects.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/init/KrontixzsFarmingModProcedures.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/init/KrontixzsFarmingModBlocks.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/init/KrontixzsFarmingModItems.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/mixin/ServerPlayerMixin.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/mixin/RepairItemRecipeMixin.java",
+      "src/main/resources/META-INF/krontixzs_farming.classtweaker",
+      "src/main/resources/krontixzs_farming.mixins.json",
+      "src/main/java/io/github/krontixz/krontixzsfarming/mixin/ItemStackMixin.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/mixin/BoneMealItemMixin.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/event/MiscEvents.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/io/github/krontixz/krontixzsfarming/mixin/PlayerMixin.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/event/ItemEvents.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/mixin/CommandsMixin.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/mixin/LivingEntityMixin.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/mixin/BlockItemMixin.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/event/LivingEntityEvents.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/event/BlockEvents.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/init/KrontixzsFarmingModTabs.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/event/PlayerEvents.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/mixin/ExperienceOrbMixin.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/KrontixzsFarmingMod.java",
+      "src/main/java/io/github/krontixz/krontixzsfarming/KrontixzsFarmingModClient.java",
+      "src/main/resources/fabric.mod.json"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "krontixzs_farming",
+    "modName": "Krontixz\u0027s Farming",
+    "version": "1.0.0",
+    "description": "A mod made by Krontixz that turns my imagination into farming!",
+    "author": "Krontixz",
+    "websiteURL": "https://modrinth.com/mod/krontixz_farming",
+    "license": "CC-BY-4.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-26.1.2",
+    "credits": "idk what to put here",
+    "modElementsPackage": "io.github.krontixz.krontixzsfarming"
+  },
+  "mcreatorVersion": 202600227711
+}

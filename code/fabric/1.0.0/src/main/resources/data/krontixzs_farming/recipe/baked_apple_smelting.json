@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "cooked_food",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 215,
+  "ingredient": "minecraft:apple",
+  "result": {
+    "id": "krontixzs_farming:baked_apple"
+  }
+}

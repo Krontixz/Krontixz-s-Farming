@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "krontixzs_farming",
+  "version": "1.0.0",
+  "name": "Krontixz's Farming",
+  "description": "A mod made by Krontixz that turns my imagination into farming!",
+  "authors": [
+    "Krontixz"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/krontixz_farming",
+    "sources": ""
+  },
+  "license": "CC-BY-4.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.krontixz.krontixzsfarming.KrontixzsFarmingMod"
+    ],
+    "client": [
+      "io.github.krontixz.krontixzsfarming.KrontixzsFarmingModClient"
+    ]
+  },
+  "mixins": [
+    "krontixzs_farming.mixins.json"
+  ],
+  "accessWidener": "META-INF/krontixzs_farming.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
